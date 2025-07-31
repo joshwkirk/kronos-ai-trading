@@ -1,1 +1,5 @@
-def get_strategy(name): return lambda data: 'hold'
+# strategies.py
+def get_strategy(name):
+    def strategy(data):
+        return "hold"
+    return strategy
