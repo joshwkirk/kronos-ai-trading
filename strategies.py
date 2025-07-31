@@ -1,0 +1,1 @@
+def get_strategy(name): return lambda data: 'hold'
